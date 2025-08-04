@@ -196,9 +196,5 @@ module tb;
         env.gen.count  = 30;
         env.run();
     end
-    initial begin
-        $dumpfile("dump.vcd");
-        $dumpvars;
-    end
 
 endmodule
